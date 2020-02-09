@@ -6,7 +6,13 @@ mod helper_modules;
 fn main() {
     println!("Hello, world!");
 //    solve_26();
-    solve_51();
+//    solve_51();
+    solve_52();
+}
+
+fn solve_52() {
+    let answer_52 = problems::problem_52::solve(1,100000000, 6);
+    println!("Answer for Problem 52 : {:?}", answer_52);
 }
 
 fn solve_51() {
